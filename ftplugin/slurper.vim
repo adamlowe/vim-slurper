@@ -1,6 +1,6 @@
 " Vim filetype plugin
 " Language:	Slurper
-" Maintainer:	Hashrocket <info@hashrocket.com>
+" Maintainer:	Adam Lowe <contact@adamlowe.me>
 
 " Only do this when not done yet for this buffer
 if exists("b:did_ftplugin")
