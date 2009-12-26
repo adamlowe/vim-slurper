@@ -10,7 +10,7 @@ let b:did_ftplugin = 1
 
 setlocal spell
 
-nmap <buffer> <C-j> 
+nmap <buffer> <C-k> 
       \<C-\><C-n>
       \o
       \<C-D>name
@@ -31,4 +31,4 @@ nmap <buffer> <C-j>
       \k
       \<S-a>
 
-imap <buffer> <C-j> <C-O><C-j>
+imap <buffer> <C-k> <C-O><C-k>
