@@ -1,0 +1,53 @@
+= Description
+
+slurper.vim was written as a companion to the slurper gem (http://github.com/hashrocket/slurper). The slurper gem allows you compose stories in a plain text file and then slurp them into Pivotal Tracker through the api in bulk. You will need to install the slurper gem for slurper.vim to be of much use.
+
+slurper.vim turns on spell check and provides macros for generating story templates in the correct format to speed up your story writing even further. It also provides basic syntax highlighting for .slurper files.
+
+If you find slurper.vim useful or have suggestions please let me know. Constructive input is greatly appreciated.
+
+= Installation
+
+Download the packaged file from http://www.vim.org/scripts/edit_script.php?script_id=2890 extract and copy the slurper.vim files into their corresponding folders within your .vim directory.
+
+Alternately my preferred method of installing vim plugins is to use Tim Pope's pathogen.vim plugin (http://www.vim.org/scripts/script.php?script_id=2332) and git clone plugins into my ~/.vimbundles directory.
+
+= Usage
+
+CTRL-k generates a new story with acceptance criteria.
+
+  ==
+  name
+    
+  description
+    In order to
+    As a
+    I want
+
+    -
+
+  labels
+
+  ==
+
+CTRL-l generates a new story without acceptance criteria.
+
+  ==
+  name
+    
+  description
+    In order to
+    As a
+    I want
+
+  labels
+
+  ==
+
+The macros work the same in insert or edit modes. They intentionally leave off the begining == delimiter. Add the first one at the top of your file and then the trailing == from each previous story acts as the leading delimiter for the following story.
+
+= Patches/Pull Requests
+
+* Fork the project.
+* Make your feature addition or bug fix.
+* Send me a pull request.
