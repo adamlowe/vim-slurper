@@ -32,3 +32,23 @@ nmap <buffer> <C-k>
       \<S-a>
 
 imap <buffer> <C-k> <C-O><C-k>
+
+nmap <buffer> <C-l> 
+      \<C-\><C-n>
+      \o
+      \<C-D>name
+      \<CR>  
+      \<CR><C-D>description
+      \<CR><C-T>In order to
+      \<CR>As a
+      \<CR>I want
+      \<CR>
+      \<CR><C-D>labels
+      \<CR><C-T>
+      \<CR><C-D>==
+      \<Esc>
+      \8
+      \k
+      \<S-a>
+
+imap <buffer> <C-l> <C-O><C-l>
