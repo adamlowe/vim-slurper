@@ -8,7 +8,7 @@ If you find slurper.vim useful or have suggestions please let me know. Construct
 
 = Installation
 
-Download the packaged file from http://www.vim.org/scripts/edit_script.php?script_id=2890 extract and copy the slurper.vim files into their corresponding folders within your .vim directory.
+Download the packaged file from www.vim.org/scripts/script.php?script_id=2890 extract and copy the slurper.vim files into their corresponding folders within your .vim directory.
 
 Alternately my preferred method of installing vim plugins is to use Tim Pope's pathogen.vim plugin (http://www.vim.org/scripts/script.php?script_id=2332) and git clone plugins into my ~/.vimbundles directory.
 
