@@ -23,7 +23,7 @@ nmap <buffer> <C-k>
       \<CR>-
       \<CR>
       \<CR><C-D>labels
-      \<CR><C-T>
+      \<CR>  
       \<CR><C-D>==
       \<Esc>
       \1
@@ -44,7 +44,7 @@ nmap <buffer> <C-l>
       \<CR>I want
       \<CR>
       \<CR><C-D>labels
-      \<CR><C-T>
+      \<CR>  
       \<CR><C-D>==
       \<Esc>
       \8
