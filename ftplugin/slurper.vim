@@ -9,6 +9,7 @@ endif
 let b:did_ftplugin = 1
 
 setlocal spell
+highlight SpellCap none
 
 nmap <buffer> <C-k> 
       \<C-\><C-n>
