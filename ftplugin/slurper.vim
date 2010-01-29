@@ -11,43 +11,40 @@ let b:did_ftplugin = 1
 setlocal spell
 
 nmap <buffer> <C-k> 
-      \<C-\><C-n>
-      \o
-      \<C-D>name
+      \O
+      \<CR><C-D>==
+      \<CR><C-D>name:
       \<CR>  
-      \<CR><C-D>description
+      \<CR><C-D>description:
       \<CR><C-T>In order to
       \<CR>As a
       \<CR>I want
       \<CR>
       \<CR>-
       \<CR>
-      \<CR><C-D>labels
+      \<CR><C-D>labels:
       \<CR>  
-      \<CR><C-D>==
       \<Esc>
-      \1
-      \0
+      \9
       \k
       \<S-a>
 
 imap <buffer> <C-k> <C-O><C-k>
 
 nmap <buffer> <C-l> 
-      \<C-\><C-n>
-      \o
-      \<C-D>name
+      \O
+      \<CR><C-D>==
+      \<CR><C-D>name:
       \<CR>  
-      \<CR><C-D>description
+      \<CR><C-D>description:
       \<CR><C-T>In order to
       \<CR>As a
       \<CR>I want
       \<CR>
-      \<CR><C-D>labels
+      \<CR><C-D>labels:
       \<CR>  
-      \<CR><C-D>==
       \<Esc>
-      \8
+      \7
       \k
       \<S-a>
 
