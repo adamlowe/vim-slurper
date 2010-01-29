@@ -12,15 +12,21 @@ syn case match
 
 syn match slurperDelimiter "^=="
 
-syn match slurperName "^name"
+syn match slurperStoryType "^story_type:"
 
-syn match slurperDescription "^description"
+syn match slurperName "^name:"
 
-syn match slurperLabels "^labels"
+syn match slurperDescription "^description:"
+
+syn match slurperLabels "^labels:"
+
+syn match slurperRequestedBy "^requested_by:"
 
 hi def link slurperDelimiter    Delimiter
+hi def link slurperStoryType    Statement
 hi def link slurperName         Statement
 hi def link slurperDescription  Statement
 hi def link slurperLabels       Statement
+hi def link slurperRequestedBy  Statement
 
 let b:current_syntax = "slurper"

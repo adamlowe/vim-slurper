@@ -17,34 +17,30 @@ Alternately my preferred method of installing vim plugins is to use Tim Pope's p
 CTRL-k generates a new story with acceptance criteria.
 
   ==
-  name
+  name:
     
-  description
+  description:
     In order to
     As a
     I want
 
     -
 
-  labels
-
-  ==
+  labels:
 
 CTRL-l generates a new story without acceptance criteria.
 
   ==
-  name
+  name:
     
-  description
+  description:
     In order to
     As a
     I want
 
-  labels
+  labels:
 
-  ==
-
-The macros work the same in insert or edit modes. They intentionally leave off the begining == delimiter. Add the first one at the top of your file and then the trailing == from each previous story acts as the leading delimiter for the following story.
+The macros work the same in insert or edit modes.
 
 = Patches/Pull Requests
 
