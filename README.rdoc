@@ -14,9 +14,23 @@ Alternately my preferred method of installing vim plugins is to use Tim Pope's p
 
 = Usage
 
-CTRL-k generates a new story with acceptance criteria.
+CTRL-h generates a new chore and puts you in insert mode on the name line.
 
   ==
+  story_type:
+    chore
+  name:
+    
+  description:
+    
+
+  labels:
+
+CTRL-j generates a new feature and puts you in insert mode on the name line.
+
+  ==
+  story_type:
+    feature
   name:
     
   description:
@@ -24,22 +38,34 @@ CTRL-k generates a new story with acceptance criteria.
     As a
     I want
 
-    -
+    - 
 
   labels:
 
-CTRL-l generates a new story without acceptance criteria.
+CTRL-k generates a new release and puts you in insert mode on the name line.
 
   ==
+  story_type:
+    release
   name:
     
   description:
-    In order to
-    As a
-    I want
+    
 
   labels:
+  
+CTRL-l generates a new bug and puts you in insert mode on the name line.
 
+  ==
+  story_type:
+    bug
+  name:
+    
+  description:
+    
+
+  labels:
+  
 The macros work the same in insert or edit modes.
 
 = Patches/Pull Requests
