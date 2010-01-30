@@ -28,9 +28,9 @@ nmap <buffer> <C-h>
       \k
       \<S-a>
 
-imap <buffer> <C-h> <C-O><C-h>
+imap <buffer> <C-j> <C-O><C-j>
 
-nmap <buffer> <C-k> 
+nmap <buffer> <C-j> 
       \o
       \<C-D>==
       \<CR><C-D>story_type:
@@ -51,4 +51,4 @@ nmap <buffer> <C-k>
       \k
       \<S-a>
 
-imap <buffer> <C-k> <C-O><C-k>
+imap <buffer> <C-j> <C-O><C-j>
