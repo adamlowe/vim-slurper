@@ -12,8 +12,8 @@ setlocal spell
 highlight SpellCap none
 
 nmap <buffer> <C-h> 
-      \O
-      \<CR><C-D>==
+      \o
+      \<C-D>==
       \<CR><C-D>story_type:
       \<CR><C-T>chore
       \<CR><C-D>name:
@@ -31,8 +31,8 @@ nmap <buffer> <C-h>
 imap <buffer> <C-h> <C-O><C-h>
 
 nmap <buffer> <C-k> 
-      \O
-      \<CR><C-D>==
+      \o
+      \<C-D>==
       \<CR><C-D>story_type:
       \<CR><C-T>feature
       \<CR><C-D>name:
