@@ -71,3 +71,22 @@ nmap <buffer> <C-k>
       \<S-a>
 
 imap <buffer> <C-k> <C-O><C-k>
+
+nmap <buffer> <C-l> 
+      \o
+      \<C-D>==
+      \<CR><C-D>story_type:
+      \<CR><C-T>bug
+      \<CR><C-D>name:
+      \<CR>  
+      \<CR><C-D>description:
+      \<CR>  
+      \<CR>
+      \<CR><C-D>labels:
+      \<CR>  
+      \<Esc>
+      \5
+      \k
+      \<S-a>
+
+imap <buffer> <C-l> <C-O><C-l>
