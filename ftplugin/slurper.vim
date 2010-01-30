@@ -52,3 +52,22 @@ nmap <buffer> <C-j>
       \<S-a>
 
 imap <buffer> <C-j> <C-O><C-j>
+
+nmap <buffer> <C-k> 
+      \o
+      \<C-D>==
+      \<CR><C-D>story_type:
+      \<CR><C-T>release
+      \<CR><C-D>name:
+      \<CR>  
+      \<CR><C-D>description:
+      \<CR>  
+      \<CR>
+      \<CR><C-D>labels:
+      \<CR>  
+      \<Esc>
+      \5
+      \k
+      \<S-a>
+
+imap <buffer> <C-k> <C-O><C-k>
