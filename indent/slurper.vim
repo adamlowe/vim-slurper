@@ -9,5 +9,8 @@ endif
 let b:did_indent = 1
 
 setlocal autoindent
-
-" vim:set sts=2 sw=2:
+setlocal tabstop=2
+setlocal smarttab
+setlocal shiftwidth=2
+setlocal autoindent
+setlocal expandtab
