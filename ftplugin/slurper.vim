@@ -90,3 +90,13 @@ nmap <buffer> <C-l>
       \<S-a>
 
 imap <buffer> <C-l> <C-O><C-l>
+
+function! SlurperFoldText()
+  let storytype=substitute(getline(v:foldstart+2),'  ','','')
+  let storytitle=substitute(getline(v:foldstart+4),'  ','','')
+  return '== ['.storytype.'] '.storytitle
+endfunction
+
+function! SlurperFoldExpr()
+  return getline(v:lnum) == '==' ? ">1" : getline(v:lnum)!~'=='
+endfunction
