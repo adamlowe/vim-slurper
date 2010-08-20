@@ -14,15 +14,15 @@ highlight SpellCap none
 nmap <buffer> <C-h> 
       \o
       \<C-D>==
-      \<CR><C-D>story_type:
-      \<CR><C-T>chore
-      \<CR><C-D>name:
-      \<CR>  
-      \<CR><C-D>description:
-      \<CR>  
+      \<CR>story_type:
+      \<CR>chore
+      \<CR>name:
+      \<CR><C-D>  
+      \<CR>description:
+      \<CR><C-D>  
       \<CR>
-      \<CR><C-D>labels:
-      \<CR>  
+      \<CR>labels:
+      \<CR><C-D>  
       \<Esc>
       \5
       \k
@@ -33,19 +33,19 @@ imap <buffer> <C-j> <C-O><C-j>
 nmap <buffer> <C-j> 
       \o
       \<C-D>==
-      \<CR><C-D>story_type:
-      \<CR><C-T>feature
-      \<CR><C-D>name:
-      \<CR>  
-      \<CR><C-D>description:
-      \<CR><C-T>In order to
+      \<CR>story_type:
+      \<CR>feature
+      \<CR>name:
+      \<CR><C-D>  
+      \<CR>description:
+      \<CR>In order to
       \<CR>As a
       \<CR>I want
       \<CR>
       \<CR>-
       \<CR>
-      \<CR><C-D>labels:
-      \<CR>  
+      \<CR>labels:
+      \<CR><C-D>  
       \<Esc>
       \9
       \k
@@ -56,15 +56,15 @@ imap <buffer> <C-j> <C-O><C-j>
 nmap <buffer> <C-k> 
       \o
       \<C-D>==
-      \<CR><C-D>story_type:
-      \<CR><C-T>release
-      \<CR><C-D>name:
-      \<CR>  
-      \<CR><C-D>description:
-      \<CR>  
+      \<CR>story_type:
+      \<CR>release
+      \<CR>name:
+      \<CR><C-D>  
+      \<CR>description:
+      \<CR><C-D>  
       \<CR>
       \<CR><C-D>labels:
-      \<CR>  
+      \<CR><C-D>  
       \<Esc>
       \5
       \k
@@ -75,15 +75,15 @@ imap <buffer> <C-k> <C-O><C-k>
 nmap <buffer> <C-l> 
       \o
       \<C-D>==
-      \<CR><C-D>story_type:
-      \<CR><C-T>bug
-      \<CR><C-D>name:
-      \<CR>  
-      \<CR><C-D>description:
-      \<CR>  
+      \<CR>story_type:
+      \<CR>bug
+      \<CR>name:
+      \<CR><C-D>  
+      \<CR>description:
+      \<CR><C-D>  
       \<CR>
-      \<CR><C-D>labels:
-      \<CR>  
+      \<CR>labels:
+      \<CR><C-D>  
       \<Esc>
       \5
       \k
