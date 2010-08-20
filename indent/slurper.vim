@@ -24,7 +24,7 @@ if exists("*GetSlurperIndent")
   finish
 endif
 
-let s:keyword = '^\s*\%(==\|\w*:\)'
+let s:keyword = '^\s*\%(==\|story_type:\|name:\|description:\|labels:\)'
 
 function! GetSlurperIndent()
   let line = getline(v:lnum)
