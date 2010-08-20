@@ -12,6 +12,8 @@ setlocal spell
 highlight SpellCap none
 
 nmap <buffer> <C-h> 
+      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \<CR>
       \o
       \<C-D>==
       \<CR>story_type:
@@ -28,9 +30,11 @@ nmap <buffer> <C-h>
       \k
       \<S-a>
 
-imap <buffer> <C-j> <C-O><C-j>
+imap <buffer> <C-h> <ESC><C-h>
 
 nmap <buffer> <C-j> 
+      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \<CR>
       \o
       \<C-D>==
       \<CR>story_type:
@@ -51,9 +55,11 @@ nmap <buffer> <C-j>
       \k
       \<S-a>
 
-imap <buffer> <C-j> <C-O><C-j>
+imap <buffer> <C-j> <ESC><C-j>
 
 nmap <buffer> <C-k> 
+      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \<CR>
       \o
       \<C-D>==
       \<CR>story_type:
@@ -70,9 +76,11 @@ nmap <buffer> <C-k>
       \k
       \<S-a>
 
-imap <buffer> <C-k> <C-O><C-k>
+imap <buffer> <C-k> <ESC><C-k>
 
 nmap <buffer> <C-l> 
+      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \<CR>
       \o
       \<C-D>==
       \<CR>story_type:
@@ -89,7 +97,7 @@ nmap <buffer> <C-l>
       \k
       \<S-a>
 
-imap <buffer> <C-l> <C-O><C-l>
+imap <buffer> <C-l> <ESC><C-l>
 
 function! SlurperFoldText()
   let storytype=substitute(getline(v:foldstart+2),'  ','','')
