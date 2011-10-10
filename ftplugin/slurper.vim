@@ -17,7 +17,7 @@ nmap <buffer> <C-h>
       \o
       \<C-D>==
       \<CR>story_type:
-      \<CR>chore
+      \<CR>  chore
       \<CR>name:
       \<CR><C-D>  
       \<CR>description:
@@ -38,15 +38,15 @@ nmap <buffer> <C-j>
       \o
       \<C-D>==
       \<CR>story_type:
-      \<CR>feature
+      \<CR>  feature
       \<CR>name:
       \<CR><C-D>  
       \<CR>description:
-      \<CR>In order to
-      \<CR>As a
-      \<CR>I want
+      \<CR>  In order to
+      \<CR>  As a
+      \<CR>  I want
       \<CR>
-      \<CR>-
+      \<CR>  -
       \<CR>
       \<CR>labels:
       \<CR><C-D>  
@@ -63,7 +63,7 @@ nmap <buffer> <C-k>
       \o
       \<C-D>==
       \<CR>story_type:
-      \<CR>release
+      \<CR>  release
       \<CR>name:
       \<CR><C-D>  
       \<CR>description:
@@ -84,7 +84,7 @@ nmap <buffer> <C-l>
       \o
       \<C-D>==
       \<CR>story_type:
-      \<CR>bug
+      \<CR>  bug
       \<CR>name:
       \<CR><C-D>  
       \<CR>description:
@@ -108,3 +108,4 @@ endfunction
 function! SlurperFoldExpr()
   return getline(v:lnum) == '==' ? ">1" : getline(v:lnum)!~'=='
 endfunction
+
