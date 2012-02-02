@@ -42,16 +42,12 @@ nmap <buffer> <C-j>
       \<CR>name:
       \<CR><C-D>  
       \<CR>description:
-      \<CR>In order to
-      \<CR>As a
-      \<CR>I want
       \<CR>
-      \<CR>-
       \<CR>
       \<CR>labels:
       \<CR><C-D>  
       \<Esc>
-      \9
+      \5
       \k
       \<S-a>
 
