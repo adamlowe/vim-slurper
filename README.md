@@ -34,11 +34,7 @@ CTRL-j generates a new feature and puts you in insert mode on the name line.
     name:
 
     description:
-      In order to
-      As a
-      I want
 
-      -
 
     labels:
 
