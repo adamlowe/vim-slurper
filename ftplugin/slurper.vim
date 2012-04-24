@@ -12,7 +12,7 @@ setlocal spell
 highlight SpellCap none
 
 nmap <buffer> <C-h> 
-      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \:call cursor(search('^==\\|\%$', 'W'), -1, 0)
       \<CR>
       \o
       \<C-D>==
@@ -33,7 +33,7 @@ nmap <buffer> <C-h>
 imap <buffer> <C-h> <ESC><C-h>
 
 nmap <buffer> <C-j> 
-      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \:call cursor(search('^==\\|\%$', 'W'), -1, 0)
       \<CR>
       \o
       \<C-D>==
@@ -54,7 +54,7 @@ nmap <buffer> <C-j>
 imap <buffer> <C-j> <ESC><C-j>
 
 nmap <buffer> <C-k> 
-      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \:call cursor(search('^==\\|\%$', 'W'), -1, 0)
       \<CR>
       \o
       \<C-D>==
@@ -75,7 +75,7 @@ nmap <buffer> <C-k>
 imap <buffer> <C-k> <ESC><C-k>
 
 nmap <buffer> <C-l> 
-      \:call cursor(search('^==\\|\%$', 'W')-1, 0)
+      \:call cursor(search('^==\\|\%$', 'W'), -1, 0)
       \<CR>
       \o
       \<C-D>==
