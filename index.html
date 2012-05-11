@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>slurper.vim by adamlowe</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>slurper.vim</h1>
+        <p>Vim script for slurper gem to provide file specific syntax highlighting and key mappings.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/adamlowe/vim-slurper" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/adamlowe/vim-slurper/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/adamlowe/vim-slurper/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>Description</h1>
+
+<p>slurper.vim was written as a companion to the slurper gem (<a href="http://github.com/hashrocket/slurper">http://github.com/hashrocket/slurper</a>). The slurper gem allows you compose stories in a plain text file and then slurp them into Pivotal Tracker through the api in bulk. You will need to install the slurper gem for slurper.vim to be useful.</p>
+
+<p>slurper.vim turns on spell check and provides macros for generating story templates in the correct format to speed up your story writing even further. It also provides syntax highlighting and indenting for .slurper files.</p>
+
+<p>If you find slurper.vim useful or have suggestions please let me know. Constructive input is greatly appreciated.</p>
+
+<h1>Installation</h1>
+
+<p>Download the packaged file from <a href="http://www.vim.org/scripts/script.php?script_id=2890">www.vim.org/scripts/script.php?script_id=2890</a> extract and copy the slurper.vim files into their corresponding folders within your .vim directory.</p>
+
+<p>Alternately my preferred method of installing vim plugins is to use Tim Pope's pathogen.vim plugin (<a href="http://www.vim.org/scripts/script.php?script_id=2332">http://www.vim.org/scripts/script.php?script_id=2332</a>) and git clone plugins into my ~/.vimbundles directory.</p>
+
+<h1>Usage</h1>
+
+<p>CTRL-h generates a new chore and puts you in insert mode on the name line.</p>
+
+<pre><code>==
+story_type:
+  chore
+name:
+
+description:
+
+
+labels:
+</code></pre>
+
+<p>CTRL-j generates a new feature and puts you in insert mode on the name line.</p>
+
+<pre><code>==
+story_type:
+  feature
+name:
+
+description:
+
+
+labels:
+</code></pre>
+
+<p>CTRL-k generates a new release and puts you in insert mode on the name line.</p>
+
+<pre><code>==
+story_type:
+  release
+name:
+
+description:
+
+
+labels:
+</code></pre>
+
+<p>CTRL-l generates a new bug and puts you in insert mode on the name line.</p>
+
+<pre><code>==
+story_type:
+  bug
+name:
+
+description:
+
+
+labels:
+</code></pre>
+
+<p>The macros work the same in insert or edit modes. They also work anywhere in a story file.</p>
+
+<h1>Story Folding</h1>
+
+<p>We found that frequently we wanted to see just a list of all of the features in our file. To do this you can use the built in code folding key strokes.</p>
+
+<p>Close all folds (Show just story names)</p>
+
+<pre><code>zM
+</code></pre>
+
+<p>Open all folds (Show full stories)</p>
+
+<pre><code>zR
+</code></pre>
+
+<p>For more on folding in Vim check out</p>
+
+<pre><code>:help folding
+</code></pre>
+
+<h1>Patches/Pull Requests</h1>
+
+<ul>
+<li>Fork the project.</li>
+<li>Make your feature addition or bug fix.</li>
+<li>Send me a pull request.</li>
+</ul>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/adamlowe">adamlowe</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
